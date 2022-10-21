@@ -15,7 +15,6 @@ pipeline {
                         dockerapp.push('latest')
                         dockerapp.push("${env.BUILD_ID}")
                 }
-
             }
         }
     } 
